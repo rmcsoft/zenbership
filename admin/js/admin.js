@@ -44,7 +44,7 @@ $(document).ready(function () {
      * CTRL-S
 
      */
-
+/*
     shortcut.add("Ctrl+S", function () {
         if ($("#popupform").length > 0) {
             $('#popupform').submit();
@@ -64,13 +64,13 @@ $(document).ready(function () {
         close_loading();
         close_slider();
     });
-
+*/
     /**
 
      * CTRL-S
 
      */
-
+/*
     shortcut.add("Ctrl+S", function () {
         if ($("#popupform").length > 0) {
             $('#popupform').submit();
@@ -90,6 +90,7 @@ $(document).ready(function () {
         close_loading();
         close_slider();
     });
+*/
     ajax_notify();
     // setTimeout(ajax_notify, 120000); // 2 Minutes
 });

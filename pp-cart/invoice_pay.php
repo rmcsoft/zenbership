@@ -42,7 +42,7 @@ if (! empty($_GET['id'])) {
             echo $temp;
             exit;
         } else {
-            $secure = $invoice->getSecureLink();
+            $secure = $this->getSecureLink();
             header('Location: ' . $secure . '/pp-cart/invoice_add.php?id=' . urlencode($data['data']['id']) . '&hash=' . urlencode($data['data']['hash']) . '&amount=' . urlencode($data['totals']['due']));
             exit;
         }

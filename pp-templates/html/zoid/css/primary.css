@@ -1072,14 +1072,15 @@ p.zen_small {
     color: #fff;
     */
     font-family: arial, Helvetica, sans-serif;
-    height: 53px;
-    line-height: 53px;
-    margin: 12px 0 24px 0;
+    height: 100px;
+    line-height: 100px;
+    margin: 0px 0 24px 0;
+    background-color: #262626;
 }
 
 img.home_logo {
     display: block;
-    height: 53px;
+    height: 100px;
     width: auto;
 }
 
@@ -1089,12 +1090,16 @@ img.home_logo {
 }
 
 #zen_header ul li {
-    line-height: 53px !important;
+    line-height: 100px !important;
     font-size: 1.2em !important;
 }
 
 #zen_header a {
-    /* color: #fff; */
+    color: #ffffff;
+}
+
+#zen_header a:hover {
+    color: #f1a304;
 }
 
 #zen_head_left {
@@ -1178,12 +1183,22 @@ ul#zen_head_right li:hover {
 #zen_footer {
     text-align: center;
     margin-top: 24px;
-    color: #ccc !important;
+    color: #818181 !important;
+    background-color: #262626;
+    font-family: "Muli", sans-serif;
 }
 
 #zen_footer a {
-    color: #ccc !important;
+    color: #818181 !important;
+    text-decoration: none;
+}
+#zen_footer a:hover {
+    color: #FFFFFF !important;
     text-decoration: underline;
+}
+
+.padding10{
+    padding-bottom: 10px;
 }
 
 /* -------------- Calendar -------------- */
@@ -2003,6 +2018,8 @@ ul.zen_menu_horizontal {
     font-family: arial, Helvetica, sans-serif;
     font-size: 0.9em;
     margin: 0;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 ul.zen_menu_horizontal li {
@@ -2012,8 +2029,10 @@ ul.zen_menu_horizontal li {
 }
 
 ul.zen_menu_horizontal li:hover {
+    
+    background-color: #383737;
+    color: #383737;
     /*
-    background-color: #000;
     border-bottom: 3px solid #2C98F4 !important;
     */
 }

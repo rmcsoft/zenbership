@@ -15,7 +15,7 @@
 <div id="zen_header" class="zen_edit_area" contenteditable="false">
     <div class="zen_holder">
         <div id="zen_head_left">
-            <a href="%home_link%">
+            <a href="https://adventcoworking.com">
             <?php
             $logo = $this->get_option('company_logo');
             $company_name = $this->get_option('company_name');
